@@ -12,7 +12,7 @@ require 'rspec/rails'
 # configure shoulda matchers to use rspec as the test framework
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
-    with.test_framework :rspect
+    with.test_framework :rspec
     with.library :rails
   end
 end
